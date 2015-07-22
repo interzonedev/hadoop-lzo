@@ -11983,7 +11983,7 @@ fi
 LDFLAGS=$ldflags_bak
 
 
-JNI_CPPFLAGS=""
+JNI_CPPFLAGS="-I/System/Library/Frameworks/JavaVM.framework/Headers"
 if test "x$JAVA_HOME" != "x"
 then
 	for dir in `find $JAVA_HOME/include -follow -type d`
